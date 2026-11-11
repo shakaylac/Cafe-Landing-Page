@@ -14,8 +14,8 @@
 
     /* weights */
     --element-padding: 10px;
-    --button-padding: 8px;
-    --border-radius: 10px;
+    --button-padding: 8px 20px;
+    --border-radius: 50px;
 }
 
 * {
@@ -62,4 +62,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.welcome > a {
+    background-color: var(--yellow);
+    color: #0f0a0f;
 }
